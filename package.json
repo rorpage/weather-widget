@@ -1,8 +1,7 @@
 {
   "name": "weather-widget",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A small weather widget to be used anywhere, but especially for airport OBS livestreams!",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +13,7 @@
     "aviation"
   ],
   "author": "Robbie Page (rorpage@gmail.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rorpage/weather-widget/issues"
   },
