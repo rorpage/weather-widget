@@ -1,0 +1,25 @@
+{
+  "name": "weather-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rorpage/weather-widget.git"
+  },
+  "keywords": [
+    "aviation"
+  ],
+  "author": "Robbie Page (rorpage@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rorpage/weather-widget/issues"
+  },
+  "homepage": "https://github.com/rorpage/weather-widget#readme",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}

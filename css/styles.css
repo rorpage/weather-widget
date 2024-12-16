@@ -1,0 +1,17 @@
+#title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#widget {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  width: 300px;
+}
+
+.item {
+  padding: 4px;
+}
