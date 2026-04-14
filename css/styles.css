@@ -29,7 +29,7 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-#raw {
+#raw:not(:empty) {
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.72rem;
   color: rgba(255, 255, 255, 0.55);
