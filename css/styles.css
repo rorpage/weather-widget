@@ -36,9 +36,10 @@ body {
   background: rgba(255, 255, 255, 0.06);
   border-radius: 5px;
   padding: 6px 8px;
-  margin-bottom: 10px;
+  margin-top: 12px;
   word-break: break-all;
   line-height: 1.4;
+  text-align: center;
 }
 
 .item {
@@ -54,6 +55,10 @@ body {
   border-bottom: none;
 }
 
+#altimeter {
+  border-bottom: none;
+}
+
 .item strong {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
@@ -63,4 +68,38 @@ body {
 
 .item strong::after {
   content: '';
+}
+
+#widget.no-id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  text-align: center;
+}
+
+#widget.no-id #title {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6;
+}
+
+#widget.no-id #title small {
+  display: block;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.45);
+  margin-top: 6px;
+}
+
+#widget.no-id #title code {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85em;
 }
