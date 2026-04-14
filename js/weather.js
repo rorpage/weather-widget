@@ -3,7 +3,7 @@ const elementById = (id) => { return document.getElementById(id) };
 const renderItem = (element_id, label, data) => {
   const element = elementById(element_id);
 
-  element.innerHTML = `<strong>${label}:</strong> ${data}`;
+  element.innerHTML = `<strong>${label}</strong><span>${data}</span>`;
 };
 
 const title = elementById('title');
