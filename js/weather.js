@@ -3,7 +3,7 @@ const elementById = (id) => { return document.getElementById(id) };
 const renderItem = (element_id, label, data) => {
   const element = elementById(element_id);
 
-  element.innerHTML = `<strong>${label}:</strong> ${data}`;
+  element.innerHTML = `<strong>${label}</strong><span>${data}</span>`;
 };
 
 const title = elementById('title');
@@ -14,7 +14,8 @@ function loadData() {
   const params = new URLSearchParams(location.search);
 
   if (params.size === 0 || !params.has('id')) {
-    title.innerHTML = "Please provide an airport ID in the query string like 'id=KIND'.";
+    document.getElementById('widget').classList.add('no-id');
+    title.innerHTML = "No airport ID provided.<small>Add <code>?id=KIND</code> to the URL.</small>";
 
     return;
   }
